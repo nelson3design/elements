@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+
+:root{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    --colorPreto:#333;
+    color: var(--colorPreto);
+}
+header{
+    width: 100vw;
+    background-color: #C4170C;
+}
+.title{
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 300;
+    background-color:#B0150B;
+    width: 100%;
+    color: white;
+    padding: 0.3125 0;
+}
+
+.portal{
+    width: 100%;
+    color: white;
+  
+    text-align: center;
+    padding: 0.3125 0;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+.body{
+    width: 100vw;
+    display: grid;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+
+
+h1{
+   
+    font-size: 2.1875rem;
+    font-weight: 700;
+    margin-top: 10px;
+    color: var(--colorPreto);
+    margin: 1.875rem 0;
+}
+
+.title-2{
+    
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8{
+    width: 100%;
+    display: grid;
+    margin: 1.875rem 0;
+}
+
+.img-1 img, .img-2 img, .img-3 img, .img-4 img, .img-5 img, .img-6 img,.img-7 img,.img-8 img{
+    width: 70%;
+    margin: auto;
+}
+
+.author{
+    opacity: .8;
+    margin-bottom: -0.3125rem;
+}
+
+p{
+    margin: 1.25rem 0;
+   
+}
+
+h4{
+    margin-bottom: 1.25rem;
+}
+
+li{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: -1.25rem;
+}
+
+.marca{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.titulo{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.btn{
+    width: 100%;
+   
+    margin: 1.875rem 0;
+}
+
+button{
+    padding: 0.3125rem 0.625rem;
+    background-color: #4CAF50;
+    border: none;
+    margin: 1.875rem 0;
+    border-radius:3px;
+  
+}
+
+button:hover{
+  opacity: .6;
+  cursor: pointer;
+
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+}
+
+footer{
+    background-color: #C4170C;
+    padding: 1.25rem 0;
+}
+
+footer h5{
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+@media (max-width:992px) {
+    :root{
+        font-size: 14px;
+    }
+    .container{
+        width: 85%;
+        margin: auto;
+    }
+    li{
+        list-style: none;
+    }
+    .img-1 img, .img-2 img, .img-3 img, .img-4 img, .img-5 img, .img-6 img,.img-7 img,.img-8 img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .btn{
+       
+        display: grid;
+       
+    }
+    
+    button{
+       
+       margin: auto;
+    }
+    
+}
+
+@media (min-width:992px) and (max-width:1440px) {
+    .container{
+        width: 70%;
+       
+    }
+}
+
+@media (min-width:540px) and (max-width:992px) {
+    .container{
+        width: 70%;
+       
+    }
+}
