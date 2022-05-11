@@ -214,6 +214,26 @@ footer h5{
    
 }
 
+.gif-base p{
+    width: 50%;
+   
+}
+
+.gif img{
+    width: 100%;
+   
+}
+
+.gif-center{
+    width: 100%;
+    display: grid;
+}
+
+.gif-center img{
+    width: 50%;
+    margin: auto;
+}
+
 @media (max-width:992px) {
     :root{
         font-size: 14px;
@@ -256,7 +276,15 @@ footer h5{
     .gif img{
         width: 100%;
     }
+    .gif-center img{
+        width: 100%;
+        margin: auto;
+    }
 
+    .gif-base p{
+        width: 100%;
+       
+    }
 
     .img-2-box{
        
